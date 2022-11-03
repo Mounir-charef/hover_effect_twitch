@@ -2,7 +2,6 @@ const desc = document.getElementById("box-desc");
 
 const createWord = (text, index) => {
     const word = document.createElement("span");
-    console.log(word)
     word.innerHTML = `${text}`;
     word.classList.add("box-desc-word");
     word.style.transitionDelay = `${index * 50}ms`
